@@ -86,11 +86,11 @@ class Game extends Component {
     let jumlahKotak
 
     if (this.state.level == "gampang") {
-      jumlahKotak = 3;
+      jumlahKotak = 5;
     } else if (this.state.level == "sedang") {
-      jumlahKotak = 6;
+      jumlahKotak = 8;
     } else {
-      jumlahKotak = 9;
+      jumlahKotak = 12;
     }
 
     this.setState({
