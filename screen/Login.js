@@ -36,22 +36,24 @@ class Login extends Component {
   }
 
   doLogin = async (username, jumlahRonde, level) => {
-    if ((username, jumlahRonde, level)) {
+    if(username == "" || jumlahRonde == "" || level == "") {
+      alert("Tolong isi semua form");
+    }
+    if(jumlahRonde < 1 || jumlahRonde > 10) {
+      alert("Jumlah ronde harus diantara 1 sampai 10");
+    }
+    else if ((username, jumlahRonde, level)) {
       try {
         await AsyncStorage.setItem("username", username);
         await AsyncStorage.setItem("jumlahRonde", jumlahRonde);
         await AsyncStorage.setItem("level", level);
         // alert("Login Sukses");
         navigation.navigate('Game', { screen: 'Game' });
-
-      } catch (e) { }
-    } else if(
-      username == "" && jumlahRonde == "" && level == ""
-    ){
-      alert("Username / jumlahRonde / level tidak boleh kosong");
-    }
+      } catch (e) { 
+        
+      }
+    } 
   };
-
   render() {
     return (
       <Card>

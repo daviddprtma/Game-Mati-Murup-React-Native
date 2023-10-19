@@ -77,7 +77,7 @@ class Game extends Component {
         })
       }
     } else {
-      alert("Urutan salah. Sayang sekali" + this.state.username + ", kamu menekan urutan yang salah")
+      alert("Urutan salah. Sayang sekali " + this.state.username + ", kamu menekan urutan yang salah")
       this.navigation.navigate("Finish", { username: this.state.username, ronde: this.state.ronde -1 } )
     }
   }
