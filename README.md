@@ -2,12 +2,16 @@
 Game MatiMurup Square dimainkan oleh 1 player. Awal permainan memunculkan halaman
 Setup Permainan seperti tampak pada gambar 1 dibawah ini. Pemain diharuskan memasukkan
 nama pemain serta tingkat kesulitan yang terdiri dari tiga yakni:
+
 ● Tingkat kesulitan Gampang. Pemain harus menghapalkan sekuens / urutan kotak yang
 menyala sebanyak 5 buah.
+
 ● Tingkat kesulitan Sedang. Pemain harus menghapalkan sekuens / urutan kotak yang
 menyala sebanyak 8 buah.
+
 ● Tingkat kesulitan Susah. Pemain harus menghapalkan sekuens / urutan kotak yang
 menyala sebanyak 12 buah.
+
 Selanjutnya pada halaman ini pemain dapat menekan tombol Mulai untuk memulai ronde
 pertama.
 
